@@ -1,9 +1,0 @@
-# This create a namespace on the ACM for application object (subscription and placementrule)
-# This namespace will also be created on target cluster when the cluster is selected by the
-# placement rule and deployed.
-
-
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: nodejs-helloworld
