@@ -1,8 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: integration-clusters
-  namespace: reverse-words-int
+  name: nodejs-helloworld-clusters
+  namespace: nodejs-helloworld
 spec:
   clusterReplicas: 1
   clusterConditions:
@@ -10,4 +10,4 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      env: int
+      env: demo

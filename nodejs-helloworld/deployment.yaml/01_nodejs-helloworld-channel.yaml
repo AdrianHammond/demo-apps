@@ -1,9 +1,0 @@
-# Create the channel pointing to Github path
-apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: nodejs-helloworld
-  namespace: acm-demo-apps-channel
-spec:
-  type: GitHub
-  pathname: https://github.com/AdrianHammond/acm-demo-app-1.git

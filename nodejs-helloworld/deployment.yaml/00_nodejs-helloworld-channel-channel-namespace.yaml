@@ -1,5 +1,0 @@
-# Create unique namespace for the acm-demo-app channel
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: acm-demo-apps-channel

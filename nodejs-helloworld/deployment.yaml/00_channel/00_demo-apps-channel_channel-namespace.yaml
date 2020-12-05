@@ -1,0 +1,8 @@
+# Create namespace on the ACM HUB for application(s) channel objects
+# Only run this YAML if the demo-apps channel has not been created
+ 
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: acm-demo-apps-channel
