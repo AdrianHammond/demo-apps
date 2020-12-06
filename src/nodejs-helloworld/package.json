@@ -1,22 +1,18 @@
 {
   "name": "nodejs-helloworld",
   "version": "1.0.0",
-  "description": "Hello World!",
+  "description": "Sample nodejs application",
   "main": "app.js",
-  "author": "Adrian Hammond",
-  "dependencies": {
-    "express": "4.14.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdrianHammond/demo-apps/tree/master/nodejs-helloworld"
+    "url": "https://github.com/AdrianHammond/demo-apps/tree/master/src/nodejs-helloworld"
   },
-  "keywords": [
-    "sample",
-    "nodejs"
-  ],
-  "license": "ISC"
+  "author": "Adrian Hammond",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
